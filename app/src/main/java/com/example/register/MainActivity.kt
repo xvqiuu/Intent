@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
                 val intentToSecondActivity =
                     Intent(this@MainActivity, SecondActivity::class.java)
 
-                //untuk meamnggil data yg dikirimkan dr MainActivity ke SecondActivity
+                //untuk memanggil data yg dikirimkan dr MainActivity ke SecondActivity
                 //menggunakan Intent dengan kunci EXTRA
                 val username = editTxtUsername.text.toString()
                 intentToSecondActivity.putExtra(EXTRA_USERNAME,username)
